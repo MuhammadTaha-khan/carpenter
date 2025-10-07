@@ -1,14 +1,17 @@
 "use client";
 import { useState } from "react";
 import worker2 from "../img/vedioimage.png"; // make sure this path is correct
-import k12chemical from "../img/K12chemical.mp4";
+import k12chemical from "../img/vedio.mp4";
 
 const VedioSection = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <section className="about-area grey-bg max-sm:mt-96 max-lg:mt-32 pt-6 pb-16 sm:pb-24 md:pb-32 mx-4 md:mx-8 lg:mx-16 lg:mt-20">
-      <h1 className="text-center text-3xl font-bold mb-12 text-[#8a6037]">WHY CHOOSE US</h1>
+      <h1 className="text-center text-3xl font-bold mb-12 text-[#8a6037]">
+        WHY CHOOSE US
+      </h1>
+
       <div className="about-wrapper">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
@@ -16,7 +19,7 @@ const VedioSection = () => {
             <div className="about-thumb relative text-center mb-8 lg:ml-24">
               <img
                 src={worker2}
-                alt="About Image"
+                alt="Carpenter at work"
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
 
@@ -42,19 +45,20 @@ const VedioSection = () => {
             <div className="about-content mb-8 lg:ml-16">
               <div className="tp-section">
                 <h3 className="tp-section__title mb-6 font-bold text-3xl md:text-4xl lg:text-5xl leading-tight text-[#8a6037]">
-                  Best Laboratory For Testing And Research
+                  Expert Craftsmanship You Can Trust
                 </h3>
 
                 <p className="italic block text-base md:text-lg text-gray-700 mb-6">
-                  Your full service lab for clinical trials. Our mission is to
-                  ensure the generation of accurate and precise findings.
+                  From custom furniture to home interiors — we create elegant,
+                  durable woodwork that brings warmth and character to your
+                  space.
                 </p>
 
                 <p className="text-base md:text-lg text-gray-600 mb-8">
-                  Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea
-                  commodo claritatem insitamconse quat. Exerci tation
-                  ullamcorper suscipit loborti ex commodo habent claritatem
-                  insitamconse quat.
+                  With years of experience in fine woodworking, we combine
+                  traditional techniques with modern design to deliver lasting
+                  beauty and functionality. Every project reflects our
+                  dedication to detail, precision, and quality craftsmanship.
                 </p>
               </div>
 
@@ -63,7 +67,7 @@ const VedioSection = () => {
                   href="/about"
                   className="tp-btn bg-[#8a6037] hover:bg-[#9b6229] text-white py-3 px-6 rounded-md transition"
                 >
-                  Talk with Expert
+                  Talk with Our Carpenter
                 </a>
               </div>
             </div>

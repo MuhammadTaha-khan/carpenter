@@ -15,10 +15,10 @@ function App() {
       <div>
         <Navbar/>
         <Herosection/>
-        <Testimonials/>
         <Aboutus/>
         <Vediosection/>
         <Appoiment/>
+        <Testimonials/>
         <Footer/>
       </div>
 

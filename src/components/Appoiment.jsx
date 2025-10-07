@@ -144,8 +144,8 @@ export default function Home() {
           </div>
 
           <p className="text-3xl lg:text-4xl font-bold text-gray-500 mb-6 leading-normal">
-            Free Business Coaching <br />
-            Consultation with Jessica Gabbi
+            Free Custom Furniture Planning <br />
+             with Jessica Gabbi
           </p>
 
           <form onSubmit={handleSubmit} className="flex flex-col space-y-4 w-full">

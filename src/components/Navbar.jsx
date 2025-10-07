@@ -17,7 +17,7 @@ export default function Navbar() {
               clipPath: 'polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%)'
             }}
           >
-            <h4 className='text-xl text-white bold'>Heat Case</h4>
+            <h4 className='text-xl text-white font-bold'>Heat Case</h4>
             {/* <img
               src={logo}
               alt="Logo"
@@ -29,16 +29,16 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center justify-between flex-1 max-w-7xl mx-auto pr-8">
           <div className="flex gap-x-12">
-            <a href="#" className="text-md font-semibold text-[#8a6037] hover:text-[#8a6037] no-underline">
+            <a href="#" className="text-md font-bold text-[#8a6037] hover:text-[#8a6037] no-underline">
               Home
             </a>
-            <a href="#" className="text-md font-semibold text-[#8a6037] hover:text-[#8a6037] no-underline">
+            <a href="#" className="text-md font-bold text-[#8a6037] hover:text-[#8a6037] no-underline">
               Company
             </a>
-            <a href="#" className="text-md font-semibold text-[#8a6037] hover:text-[#8a6037] no-underline">
+            <a href="#" className="text-md font-bold text-[#8a6037] hover:text-[#8a6037] no-underline">
               Services
             </a>
-            <a href="#" className="text-md font-semibold text-[#8a6037] hover:text-[#8a6037] no-underline">
+            <a href="#" className="text-md font-bold text-[#8a6037] hover:text-[#8a6037] no-underline">
               Contact
             </a>
           </div>
