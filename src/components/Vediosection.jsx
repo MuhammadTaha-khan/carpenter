@@ -1,7 +1,7 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import worker2 from "../img/vedioimage.png"; // make sure this path is correct
-import k12chemical from "../img/k12chemical.mp4";
+import k12chemical from "../img/K12chemical.mp4";
 
 const VedioSection = () => {
   const [isOpen, setIsOpen] = useState(false);

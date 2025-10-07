@@ -1,4 +1,3 @@
-import React from "react";
 import { CheckCircleIcon, EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 import worker1 from "../img/about1.png"; // replace with your image
 import worker2 from "../img/about2.png"; // replace with your image

@@ -1,6 +1,4 @@
 'use client'
-// import "../style/NavbarStyle.css"
-// import logo from "../img/logo.webp"
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import { RxCross2 } from "react-icons/rx"
 import { useState } from "react"
