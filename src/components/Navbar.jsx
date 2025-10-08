@@ -1,15 +1,22 @@
 'use client'
 
+import { Link } from 'react-scroll';
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import { RxCross2 } from "react-icons/rx"
 import { useState } from "react"
 
 export default function Navbar() {
+  const navigation = [
+    { name: 'Home', to: 'hero' },
+    { name: 'About Us', to: 'about' },
+    { name: 'Choose Us', to: 'choose-us' },
+    { name: 'Contact', to: 'contact' },
+  ];
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <header className="bg-white shadow-lg sticky top-0 z-[999]">
-      <nav className="flex items-center justify-between md:px-8 ">
+      <nav className="flex items-center justify-between lg:mr-6">
         {/* Logo */}
         <div
           className="px-8 py-3 bg-[#8a6037] relative"
@@ -23,14 +30,18 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center justify-between flex-1 ml-8">
           <div className="flex gap-x-10">
-            {["Home", "Company", "Services", "Contact"].map((item) => (
-              <a
-                key={item}
-                href="#"
-                className="text-md font-bold text-[#8a6037] hover:text-[#6f4d2e] transition"
+            {navigation.map((item) => (
+              <Link
+                key={item.name}
+                to={item.to}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="text-md font-bold text-[#8a6037] hover:text-[#6f4d2e] transition cursor-pointer"
               >
-                {item}
-              </a>
+                {item.name}
+              </Link>
             ))}
           </div>
 
@@ -71,16 +82,20 @@ export default function Navbar() {
             </div>
 
             <div className="space-y-5">
-              {["Home", "Company", "Services", "Contact"].map((item) => (
-                <a
-                  key={item}
-                  href="#"
-                  className="block text-[#8a6037] font-semibold text-lg hover:text-[#6f4d2e] transition"
+              {navigation.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.to}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block text-[#8a6037] font-semibold text-lg hover:text-[#6f4d2e] transition cursor-pointer"
                 >
-                  {item}
-                </a>
+                  {item.name}
+                </Link>
               ))}
-
               <div className="mt-8 border-t border-gray-200 pt-4 flex items-center justify-between">
                 <div className="border border-[#8a6037] rounded-md text-[#8a6037] px-3 py-1 cursor-pointer hover:bg-[#8a6037] hover:text-white transition">
                   EN | DE

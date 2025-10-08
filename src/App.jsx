@@ -14,11 +14,19 @@ function App() {
     <>
       <div>
         <Navbar/>
-        <Herosection/>
-        <Aboutus/>
-        <Vediosection/>
-        <Appoiment/>
-        <Testimonials/>
+        <div id="hero">
+          <Herosection />
+        </div>
+        <div id="about">
+          <Aboutus />
+        </div>
+        <div id="choose-us">
+          <Vediosection />
+        </div>
+        <div id="contact">
+          <Appoiment />
+        </div>
+        <Testimonials />
         <Footer/>
       </div>
 

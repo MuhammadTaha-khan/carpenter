@@ -86,16 +86,15 @@ const Footer = () => {
           <p className="text-[#8a6037] font-bold mb-4">
             Dolor amet sit justo amet elitr clita ipsum elitr est.
           </p>
-          <form className="flex flex-col sm:flex-row border border-[#8a6037] rounded-md overflow-hidden w-full max-w-md mx-auto gap-y-4 sm:gap-y-0 sm:gap-x-2">
-
+          <form className="flex flex-col sm:flex-row w-full max-w-md mx-auto gap-y-4 sm:gap-y-0 sm:gap-x-2">
             <input
               type="email"
               placeholder="Your email"
-              className="px-4 py-2 flex-grow text-[#8a6037] bg-transparent focus:outline-none placeholder-[#8a6037] text-sm sm:text-base"
+              className="px-4 py-2 flex-grow text-[#8a6037] bg-transparent focus:outline-none placeholder-[#8a6037] text-sm sm:text-base border border-[#8a6037] rounded-md sm:rounded-md"
             />
             <button
               type="submit"
-              className="bg-[#8a6037] hover:bg-[#8d5824] text-white px-5 py-2 font-bold text-sm sm:text-base w-full sm:w-auto transition "
+              className="bg-[#8a6037] hover:bg-[#8d5824] text-white px-5 py-2 font-bold text-sm sm:text-base w-full sm:w-auto transition rounded-md"
             >
               Sign Up
             </button>
