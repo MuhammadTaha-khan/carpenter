@@ -22,7 +22,7 @@ const Aboutus = () => {
 
         {/* Right side - Content */}
         <div>
-          <p className="text-[#8a6037] font-semibold uppercase mb-2">About Us</p>
+          <p className="text-[#8a6037] font-semibold uppercase mb-2 mt-16 lg:mt-8">About Us</p>
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#8a6037] mb-4 leading-tight">
             Expert Craftsmanship in Every Piece We Build
           </h2>
@@ -75,7 +75,7 @@ const Aboutus = () => {
               </div>
               <div>
                 <p className="text-gray-500 text-sm">Email us</p>
-                <p className="text-[#0b2355] font-semibold">craft@woodworks.com</p>
+                <p className="text-gray-700 font-semibold">craft@woodworks.com</p>
               </div>
             </div>
 
@@ -85,7 +85,7 @@ const Aboutus = () => {
               </div>
               <div>
                 <p className="text-gray-500 text-sm">Call us</p>
-                <p className="text-[#0b2355] font-semibold">+012 345 6789</p>
+                <p className="text-gray-700 font-semibold">+012 345 6789</p>
               </div>
             </div>
           </div>
