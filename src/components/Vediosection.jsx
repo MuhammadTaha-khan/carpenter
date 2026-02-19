@@ -9,7 +9,7 @@ const VedioSection = () => {
   return (
     <section className="about-area grey-bg max-sm:mt-6 max-lg:mt-6 pt-6 pb-16 sm:pb-24 md:pb-32 mx-4 md:mx-8 lg:mx-16 lg:mt-20">
       <h1 className="text-center text-3xl font-bold mb-12 text-[#8a6037]">
-        WHY CHOOSE US
+        WHY CHOOSE 
       </h1>
 
       <div className="about-wrapper">

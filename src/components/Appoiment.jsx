@@ -1,5 +1,6 @@
 import  { useState } from "react";
-import client from "../img/carousel1.webp"; // ✅ adjust path if needed
+import client from "../img/about1.png"; 
+// ✅ adjust path if needed
 
 const timeSlots = {
   morning: [
